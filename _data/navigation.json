@@ -1,0 +1,46 @@
+{
+   "main": [
+      {
+         "name": "Accueil",
+         "icon": "fa-home",
+         "permalink": "/"
+      },
+      {
+         "name": "Formateur",
+         "icon": "fa-user",
+         "permalink": "/formateur/"
+      },
+      {
+         "name": "Programmes",
+         "icon": "fa-book",
+         "dropdown": [
+            {
+               "name": "Niveau 1",
+               "permalink": "/programmes/niveau-1/"
+            },
+            {
+               "name": "Niveau 2",
+               "permalink": "/programmes/niveau-2/"
+            },
+            {
+               "name": "Niveau 3 PRO",
+               "permalink": "/programmes/niveau-3-pro/"
+            },
+            {
+               "name": "Stage HACCP",
+               "permalink": "/programmes/stage-haccp/"
+            },
+         ]
+      },
+      {
+         "name": "Partenaires",
+         "icon": "fa-users",
+         "permalink": "/partenaires/"
+      },
+      {
+         "name": "Contact",
+         "icon": "fa-envelope",
+         "permalink": "/contact/"
+      },
+   ]
+}

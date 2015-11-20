@@ -1,0 +1,11 @@
+# Site settings
+title: Ecole de Formation Pizzaïolo
+email: contact@alexchopin.com
+description: "Ecole de formation au métier de pizzaïolo située dans les Hautes-pyrénées à Lannemezan. Formations animés par Jean-Jacques Despaux maître artisan et maître pizzaiolo instructeur."
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.ecole-pizza.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+include: ['_pages']
+# Build settings
+markdown: kramdown

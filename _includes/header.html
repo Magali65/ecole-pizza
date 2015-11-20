@@ -1,0 +1,25 @@
+<header class="ep-header">
+      <div class="row">
+         <div class="col m6 l6">
+            {% if page.headline %}
+            <div class="ep-headline">
+               <h1 class="truncate">{{page.headline}}</h1>
+               {% if page.sub_headline %}
+                  <h4>{{page.sub_headline}}</h4>
+               {% endif %}
+            </div>
+            {% else %}
+               <img src="/images/slogan.gif" alt="Slogan Ecole Pizza" class="ep-slogan"/>
+            {% endif %}
+         </div>
+         <div class="col m6 l6 video hide-on-small-only">
+            {% if page.video_url %}
+            <div class="video-container">
+               <iframe src="{{ page.video_url }}" frameborder="0" allowfullscreen></iframe>
+            </div>
+            {% else if page.img_url %}
+               <img src="/images/{{ page.img_url }}" alt="Image ecole pizza" class="responsive-img"/>
+            {% endif %}
+         </div>
+      </div>
+</header>

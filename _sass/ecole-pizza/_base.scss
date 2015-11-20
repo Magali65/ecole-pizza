@@ -1,0 +1,16 @@
+body {
+   // background-color: $color-silver;
+}
+
+@media only screen and (min-width : 992px) {
+  body {
+     padding-left: 240px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-weight: 300;
+}
+.ep-container {
+   padding: 25px 15px;
+}
