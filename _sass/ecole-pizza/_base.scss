@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
    padding: 25px 15px;
 }
 .annoncement {
+   border: 2px solid #f44336;
    background-color: #f44336;
    padding: 20px !important;
    color: #fff;
@@ -23,5 +24,6 @@ h1, h2, h3, h4, h5, h6 {
    font-size: 16px;
 }
 .annoncement:hover {
-   background-color: #d32f2f;
+   color: #d32f2f;
+   background-color: #fff;
 }
