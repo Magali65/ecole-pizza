@@ -15,19 +15,19 @@
          "icon": "fa-book",
          "dropdown": [
             {
-               "name": "Niveau 1",
+               "name": "Niveau I",
                "permalink": "/programmes/niveau-1/"
             },
             {
-               "name": "Niveau 2",
+               "name": "Niveau II",
                "permalink": "/programmes/niveau-2/"
             },
             {
-               "name": "Niveau 3 PRO",
+               "name": "Niveau III PRO",
                "permalink": "/programmes/niveau-3-pro/"
             },
             {
-               "name": "Niveau 4 EXPERT",
+               "name": "Niveau IV EXPERT",
                "permalink": "/programmes/niveau-4-expert/"
             },            {
                "name": "Stage HACCP",
